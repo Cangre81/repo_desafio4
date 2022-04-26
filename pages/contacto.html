@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/5ddc0ded5f.js" crossorigin="anonymous"></script>
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header-nav">
+            <div>
+                <img class="header-nav-logo" src="../assets/Apple_logo_black.svg" alt="logo-menu">   
+            </div>
+            <a href="../index.html"> Inicio</a>
+            <a href="./nosotros.html"> Nosotros</a>
+            <a href="./productos.html"> Productos</a>
+            <a href="./preguntasfrecuentes.html"> Preguntas frecuentes</a>
+            <a href="./contacto.html"> Contacto</a>
+        </nav>
+        <h1>Palermo TECH</h1>
+        <h2>Tienda de productos Apple</h2>
+    </header> 
+    <main>
+        <form>
+            <fieldset>
+                <div>
+                    <legend class="legend"> Formulario de Contacto</legend>
+                </div>
+                <div class="div-contacto-1">
+                <label for="nombre_apellido">Nombre</label>
+                <input class="input-contacto" type="text" name="nombre" placeholder="escriba aqui su nombre">
+                <label for="nombre_apellido">Apellido</label>
+                <input class="input-contacto"  type="text" name="apellido" placeholder="escriba aqui su apellido">
+                <label for="email">Email</label>
+                <input class="input-contacto"  type="text" name="email" placeholder="escriba aqui su email">
+                <label for="telefono">Teléfono</label>
+                <input type="text" name="telefono" placeholder="escriba aqui su telefono">
+                </div>
+               <div class="div-contacto-2">
+                <select class="select-productos" name="productos">
+                    <option value="Productos"> Seleccionar Productos</option>
+                    <option value="Iphone Nuevos"> Iphone Nuevos</option>
+                    <option value="Iphones Usados"> Iphones Usados</option>
+                    <option value="Macbook Nuevas"> Macbook Nuevas</option>
+                    <option value="Macbook Usadas"> Macbook Usadas</option>
+                    <option value="Otros"> Otros</option>
+                </select>
+                </div>
+
+                <div class="div-contacto-3">
+                <legend>Escriba su consulta:</legend>
+                <textarea name="text" cols="150" rows="20" placeholder="escriba aqui "></textarea>
+                </div>
+                <div class="div-contacto-botonenviar">
+                <input class="btn-enviar" type="submit" value="Enviar">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>Seguinos en:</p>
+        <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+    </footer>
+</body>
+</html>

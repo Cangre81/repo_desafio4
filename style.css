@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Palette+Mosaic&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*index*/
+
+.header-nav-logo{
+    inline-size: 2%;
+    margin: 10px;
+    
+}
+
+nav{
+    text-align: center;
+    background-image:url(./assets/fondopantalla1.jpeg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+nav a{
+    background-image: url(./assets/fondopantalla1.jpeg);
+    background-position: right top;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ; color: white;
+    text-decoration: none;
+    padding: 3px;
+    margin: 3px;
+}
+
+h1{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; color: darkgray;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:medium;
+}
+
+main{
+    text-align: center;
+}
+.main-index{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.main-image {
+    width: auto;
+    height: auto;
+    block-size: 300px;
+}
+
+.instagram {
+    position: relative;
+    bottom: 1px;
+    
+}
+
+footer{
+    text-align: center; color: white;
+    background-image:url(./assets/fondopantalla1.jpeg);
+    background-position: bottom;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin-top: 10px;
+}
+
+/* nosotros*/
+.nosotros-main{
+    color: black;
+}
+
+.nosotros-main-h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; color: black;
+    text-align: left;
+    font-size:medium;
+    padding: 5px;
+    background-color: rgb(199, 219, 243);
+    border: 2px solid;
+    border-color: rgb(139, 185, 238) ;
+
+}
+
+.nosotros-main-p{
+    color: black;
+    text-align: left;
+    margin: 0px 10px;
+    padding: 10px;
+   
+}
+
+/*productos*/
+.lista-productos{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    flex-direction:initial;
+}
+
+.img-productos{
+    height: auto;
+    width: auto;
+    max-width: min-content;
+    max-height:min-content;
+}
+
+.producto-5{
+    margin-bottom: 60px;
+}
+.titulo-productos{
+    margin-top: 30px;
+}
+
+.fa-brands{
+   color: white; 
+   font-size:x-large;
+   position: relative;
+   bottom: 2px;
+}
+
+
+/*preguntas*/
+
+.preguntas{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; color: black;
+    font-size: medium;
+    background-color: rgb(185, 214, 241);
+    border: 5px ridge; 
+    border-color: rgb(131, 189, 243);
+}
+
+.preguntas-comocomprar{
+    font-size: medium;
+    text-align: left;
+    margin-bottom: 30px;   
+    padding-left: 10px; 
+}
+.preguntas-div1{
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.lista-preguntas{
+    text-align: left;
+    padding-left: 50px;
+    margin-bottom:100px;
+    border: 2px solid;
+    border-color: rgb(76, 146, 211);
+
+}
+.parrafo-seguridad{
+    text-align: left;
+    margin-bottom: 290px;
+    padding-left: 10px;
+}
+
+/* contacto*/
+
+.input-contacto{
+    margin-right: 10px;
+}
+.div-contacto-1{
+    margin-top: 15px;
+    
+}
+.div-contacto-2{
+    margin-top: 15px;
+}
+.div-contacto-3{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.div-contacto-botonenviar{
+    margin-bottom: 50px;
+
+}
+.btn-enviar{
+    padding: 14px 16px
+}
+
+.legend{
+    margin-top: 10px;
+    font-size: 20px;
+}
+fieldset{
+    
+    background-image: url(./assets/fondopantalla1.jpeg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 60px;
+
+}
