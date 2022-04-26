@@ -16,7 +16,8 @@
 }
 
 nav{
-    text-align: center;
+    display: flex;
+    justify-items: center;
     background-image:url(./assets/fondopantalla1.jpeg);
     background-repeat: no-repeat; 
     background-size: cover;
@@ -29,6 +30,9 @@ nav a{
     text-decoration: none;
     padding: 3px;
     margin: 3px;
+}
+nav a:hover{
+    color: black;
 }
 
 h1{
@@ -107,6 +111,7 @@ footer{
     flex-wrap: wrap;
     justify-content:space-around;
     flex-direction:initial;
+    
 }
 
 .img-productos{
@@ -114,6 +119,11 @@ footer{
     width: auto;
     max-width: min-content;
     max-height:min-content;
+    transition: height 2s;
+    
+}
+.img-productos:hover{
+    height: 200px;
 }
 
 .producto-5{
@@ -204,4 +214,8 @@ fieldset{
     background-size: cover;
     margin-bottom: 60px;
 
+}
+
+input:focus{
+    transform: scale(2,2);
 }

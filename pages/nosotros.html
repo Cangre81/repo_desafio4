@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
     <script src="https://kit.fontawesome.com/5ddc0ded5f.js" crossorigin="anonymous"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>Nosotros</title>
 </head>
 <body>
@@ -24,13 +28,23 @@
         <h2>Tienda de productos Apple</h2>
     </header> 
     <main class="main-index">
-        <h1 class="nosotros-main-h1"> Nosotros</h1>
-        <p class="nosotros-main-p"> Somos una empresa que se dedica a la comercialización de productos Apple con mas de 10 años de experiencia en el rubro tecnológico. Nuestro desafio es brindarle al cliente el producto y la atención que realmente necesita.</p>
+        <div class="animate__animated animate__slideInDown">
+            <h1 class="nosotros-main-h1"> Nosotros</h1>
+            
+        </div>
+        <div class="animate__animated animate__slideInDown">
+            <p class="nosotros-main-p"> Somos una empresa que se dedica a la comercialización de productos Apple con mas de 10 años de experiencia en el rubro tecnológico. Nuestro desafio es brindarle al cliente el producto y la atención que realmente necesita.</p>
+        </div>
+        
     </main>
     <footer>
         <p>Seguinos en:</p>
         <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
         <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
     </footer>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new wow().init();
+    </script>
 </body>
 </html>
